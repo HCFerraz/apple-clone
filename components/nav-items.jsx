@@ -1,6 +1,5 @@
 export default function NavItem(props) {
     return (
-        <ul>
             <li>
                 <a href={props.link}>
                     {props.svg ? (
@@ -10,6 +9,5 @@ export default function NavItem(props) {
                     ) : <span>{props.text}</span>}
                 </a>
             </li>
-        </ul>
     )
 }
